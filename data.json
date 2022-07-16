@@ -1904,6 +1904,34 @@
       "method": "GET",
       "url": "https://pypi.org/user/{username}/",
       "valid": "response.status == 200"
+    },
+    {
+      "app": "Atcoder",
+      "id": 143,
+      "method": "GET",
+      "url": "https://atcoder.jp/users/{username}",
+      "valid": "response.status == 200"
+    },
+    {
+      "app": "PlayStore",
+      "id": 144,
+      "method": "GET",
+      "url": "https://play.google.com/store/apps/developer?id={username}",
+      "valid": "response.status == 200"
+    },
+    {
+      "app": "OP.GG JP",
+      "id": 145,
+      "method": "GET",
+      "url": "https://jp.op.gg/summoners/jp/{username}",
+      "valid": "response.status == 200"
+    },
+    {
+      "app": "DAK.GG(APEX)",
+      "id": 146,
+      "method": "GET",
+      "url": "https://dak.gg/apex/search?name={username}",
+      "valid": "response.status == 200"
     }
   ]
 }
